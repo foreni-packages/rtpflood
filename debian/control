@@ -1,15 +1,16 @@
 Source: rtpflood
-Section: unknown
+Section: utils
 Priority: extra
 Maintainer: Devon Kearns <dookie@kali.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/rtpflood.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/rtpflood.git;a=summary
+Homepage: http://www.hackingvoip.com/sec_tools.html
+Vcs-Git: ssh://git@git.kali.org/packages/rtpflood.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/rtpflood.git;a=summary
 
 Package: rtpflood
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Tool to flood any RTP device
+ A command line tool used to flood any device that is
+ processing RTP.
